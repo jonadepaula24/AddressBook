@@ -1,0 +1,30 @@
+<!--<h1>{{addUserCtrl.message}}</h1>-->
+
+<form name="addUser">
+    <a href="../index.html" class="btn btn-default">HOME</a>
+    <div class="form-group">
+        <label>First Name</label>
+        <input ng-model="AddUsersCtrl.firstName" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        <input ng-model="AddUsersCtrl.lastName" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>Address Line 1</label>
+        <input ng-model="AddUsersCtrl.address" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>City</label>
+        <input ng-model="AddUsersCtrl.city" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>State</label>
+        <input ng-model="AddUsersCtrl.state" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input ng-model="AddUsersCtrl.email" class="form-control"/>
+    </div>
+    <button ng-click="AddUsersCtrl.addUser()" class="btn btn-primary">ADD</button>
+</form>
